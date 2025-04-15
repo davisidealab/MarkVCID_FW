@@ -1,4 +1,4 @@
-# MarkVCID_FW
+# MarkVCID Free Water Kit
 
 **Overview**
 In the context of the MarkVCID consortium, NINDS leadership selected 5 candidate imaging and fluid-based biomarkers to undergo clinical validation in MarkVCID2 to the point of readiness for incorporation into future VCID interventional trials. The MRI Free Water (FW) kit, developed by UCD and UNM, is one of these biomarkers. The FW kit demonstrates remarkable analytical performances with excellent inter-
