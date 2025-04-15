@@ -14,7 +14,7 @@ Different files are provided in the distributed directory /scripts_FW_CONSORTIUM
 •	MAIN_script_FW.sh: batch that launches the main shell script,  
 •	mrn.py: script that computes the FW map  
 •	FMRIB58_FA_1mm_thr: White matter mask (FSL FMRIB58_FA map thresholded at 3000)  
-•	Example: directory containing input data and example of script to run the kit  
+
 # **II.	Prerequisites**
 # **a)	Hardware:** 
 •	Computer with Linux or Mac OS X.  
