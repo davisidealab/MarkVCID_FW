@@ -1,4 +1,4 @@
-# WMFW
+# MarkVCID_FW
 
 **Overview**
 In the context of the MarkVCID consortium, NINDS leadership selected 5 candidate imaging and fluid-based biomarkers to undergo clinical validation in MarkVCID2 to the point of readiness for incorporation into future VCID interventional trials. The MRI Free Water (FW) kit, developed by UCD and UNM, is one of these biomarkers. The FW kit demonstrates remarkable analytical performances with excellent inter-
@@ -45,9 +45,9 @@ MAIN_script_FW.sh /dirsubject1/data.nii.gz /dirsubject1/brain_mask.nii.gz /dirsu
 # **IV.	Pipeline**
 During the process, the main script will:  
 1)	Create a new directory for the output files. The directory is defined by the user (see section III. a.)  
-2)	Compute the FW map, FW-corrected FA and FW-corrected MD maps, as well as FW-uncorrected FA and FW-uncorrected MD maps (named respectively FW1_1shell_fwfit, FA1_1shell_fwfit, MD1_1shell_fwfit, FA_wls_dti and MD_wls_dti).  
+2)	Compute the FW  and FW-corrected FA maps.  
 3)	Compute transformation parameters (named nat2std_warp) from the subject’s DTI space into the FSL FA template space   
-4)	Coregister FW and FW-corrected FA maps in the FSL FA template space (named respectively FW1_1shell_fwfit_warp, FA1_1shell_fwfit,_warp and MD1_1shell_fwfit_warp)  
+4)	Coregister FW and FW-corrected FA maps in the FSL FA template space  
 5)	Compute the mean FW and FW-corrected FA metrics within white matter voxels and store measures in the “summary.txt” file.  
 
 **Reference paper:**
